@@ -12,5 +12,5 @@ deploy:
   provider: script
   script: bash ./deploy.sh
   on:
-    branch: master
-    repo: bsycorp/kind
+    branch: rebuild-images
+    repo: itsnagaraj/kind
